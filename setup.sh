@@ -352,61 +352,61 @@ feroxbuster() {
     printf "[+] feroxbuster Installed !.\n"
 }
 
-hash git  2>/dev/null && printf "[!] Git is already installed.\n" || { printf "[+] Installing Git!" && git; }
-hash gcc 2>/dev/null && printf "[!] Gcc is already installed.\n" || { printf "[+] Gcc Findomain!" && gcc; }
-hash make 2>/dev/null && printf "[!] Make is already installed.\n" || { printf "[+] Make Findomain!" && make; }
-hash python3 2>/dev/null && printf "[!] Python is already installed.\n" || { printf "[+] Installing Python!" && python; }
-hash pip 2>/dev/null && printf "[!] pip is already installed.\n" || { printf "[+] Installing pip!" && pip; }
-hash rust 2>/dev/null && printf "[!] Rust is already installed.\n" || { printf "[+] Rust Findomain!" && rust; }
-hash go 2>/dev/null && printf "[!] golang is already installed.\n" || { printf "[+] Installing golang!" && golang; }
-hash massdns 2>/dev/null && printf "[!] massdns is already installed.\n" || { printf "[+] Installing massdns!" && massdns; }
-hash masscan 2>/dev/null && printf "[!] masscan is already installed.\n" || { printf "[+] Installing masscan!" && masscan; }
-hash subfinder 2>/dev/null && printf "[!] Subfinder is already installed.\n" || { printf "[+] Installing Subfinder!" && subfinder; }
-hash shuffledns 2>/dev/null && printf "[!] Shuffledns is already installed.\n" || { printf "[+] Installing Shuffledns!" && shuffledns; }
-hash httpx 2>/dev/null && printf "[!] Httpx is already installed.\n" || { printf "[+] Installing Httpx!" && httpx; }
-hash alterx 2>/dev/null && printf "[!] Alterx is already installed.\n" || { printf "[+] Installing Alterx!" && alterx; }
-hash dnsx 2>/dev/null && printf "[!] DnsX is already installed.\n" || { printf "[+] Installing DnsX!" && dnsx; }
-hash chaos 2>/dev/null && printf "[!] Chaos is already installed.\n" || { printf "[+] Installing Chaos!" && chaos; }
-hash katana 2>/dev/null && printf "[!] Katana is already installed.\n" || { printf "[+] Installing Katana!" && katana; }
-hash naabu 2>/dev/null && printf "[!] Naabu is already installed.\n" || { printf "[+] Installing Naabu!" && naabu; }
-hash interactsh 2>/dev/null && printf "[!] Interactsh is already installed.\n" || { printf "[+] Installing Interactsh!" && interactsh; }
-hash nuclei 2>/dev/null && printf "[!] Nuclei is already installed.\n" || { printf "[+] Installing Nuclei!" && nuclei; }
-hash asnmap 2>/dev/null && printf "[!] ASNmap is already installed.\n" || { printf "[+] Installing ASNmap!" && asnmap; }
-hash notify 2>/dev/null && printf "[!] Notify is already installed.\n" || { printf "[+] Installing Notify!" && notify; }
-hash mapcidr 2>/dev/null && printf "[!] mapCIDR is already installed.\n" || { printf "[+] Installing mapCIDR!" && mapcidr; }
-hash uncover 2>/dev/null && printf "[!] Uncover is already installed.\n" || { printf "[+] Installing Uncover!" && uncover; }
-hash cdncheck 2>/dev/null && printf "[!] CDNcheck is already installed.\n" || { printf "[+] Installing CDNcheck!" && cdncheck; }
-hash meg 2>/dev/null && printf "[!] Meg is already installed.\n" || { printf "[+] Installing Meg!" && meg; }
-hash gf 2>/dev/null && printf "[!] gf is already installed.\n" || { printf "[+] Installing gf!" && gf; }
-hash anew 2>/dev/null && printf "[!] Anew is already installed.\n" || { printf "[+] Installing Anew!" && anew; }
-hash waybackurls 2>/dev/null && printf "[!] Waybackurls is already installed.\n" || { printf "[+] Installing Waybackurls!" && waybackurls; }
-hash assetfinder 2>/dev/null && printf "[!] Assetfinder is already installed.\n" || { printf "[+] Installing Assetfinder!" && assetfinder; }
-hash unfurl 2>/dev/null && printf "[!] Unfurl is already installed.\n" || { printf "[+] Installing Unfurl!" && unfurl; }
-hash qsreplace 2>/dev/null && printf "[!] qsreplace is already installed.\n" || { printf "[+] Installing qsreplace!" && qsreplace; }
-hash hakrawler 2>/dev/null && printf "[!] hakrawler is already installed.\n" || { printf "[+] Installing hakrawler!" && hakrawler; }
-hash hakrevdns 2>/dev/null && printf "[!] hakrevDNS is already installed.\n" || { printf "[+] Installing hakrevDNS!" && hakrevdns; }
-hash haktrails 2>/dev/null && printf "[!] Haktrails is already installed.\n" || { printf "[+] Installing Haktrails!" && haktrails; }
-hash amass 2>/dev/null && printf "[!] Amass is already installed.\n" || { printf "[+] Installing Amass!" && amass; }
-hash shortscan 2>/dev/null && printf "[!] Shortscan is already installed.\n" || { printf "[+] Installing Shortscan!" && shortscan; }
-hash confused 2>/dev/null && printf "[!] Confused is already installed.\n" || { printf "[+] Installing Confused!" && confused; }
-hash puredns 2>/dev/null && printf "[!] PureDNS is already installed.\n" || { printf "[+] Installing PureDNS!" && puredns; }
-hash ffuf 2>/dev/null && printf "[!] ffuf is already installed.\n" || { printf "[+] Installing ffuf!" && ffuf; }
-hash crlfuzz 2>/dev/null && printf "[!] crlfzz is already installed.\n" || { printf "[+] Installing crlfuzz!" && crlfuzz; }
-hash waymore 2>/dev/null && printf "[!] waymore is already installed.\n" || { printf "[+] Installing waymore!" && waymore; }
-hash xnLinkFinder 2>/dev/null && printf "[!] xnLinkFinder is already installed.\n" || { printf "[+] Installing xnLinkFinder!" && xnlinkfinder; }
-[ -f "~/tools/sqlmap-dev/sqlmap.py" ] && printf "[!] sqlmap is already installed.\n" || { printf "[+] Installing sqlmap!" && sqlmap; }
-[ -f "~/tools/dirsearch/dirsearch.py" ] && printf "[!] dirsearch is already installed.\n" || { printf "[+] Installing dirsearch!" && dirsearch; }
-[ -f "~/tools/SSTImap/sstimap.py" ] && printf "[!] sstimap is already installed.\n" || { printf "[+] Installing sstimap!" && sstimap; }
-hash arjun 2>/dev/null && printf "[!] arjun is already installed.\n" || { printf "[+] Installing arjun!" && arjun; }
-hash uro 2>/dev/null && printf "[!] uro is already installed.\n" || { printf "[+] Installing uro!" && uro; }
-hash knoxnl 2>/dev/null && printf "[!] knoxnl is already installed.\n" || { printf "[+] Installing knoxnl!" && knoxnl; }
-hash urless 2>/dev/null && printf "[!] urless is already installed.\n" || { printf "[+] Installing urless!" && urless; }
-hash trufflehog 2>/dev/null && printf "[!] trufflehog is already installed.\n" || { printf "[+] Installing trufflehog!" && trufflehog; }
-hash wpscan 2>/dev/null && printf "[!] wpscan is already installed.\n" || { printf "[+] Installing wpscan!" && wpscan; }
-[ -f "~/tools/fuzzing-templates/" ] && printf "[!] fuzzing-templates is already installed.\n" || { printf "[+] Installing fuzzing-templates!" && fuzzing-templates; }
-[ -f "~/tools/resolvers/resolvers.txt" ] && printf "[!] resolvers is already installed.\n" || { printf "[+] resolvers sstimap!" && resolvers; }
-[ -f "~/tools/SecLists" ] && printf "[!] seclists is already installed.\n" || { printf "[+] Installing seclists!" && seclists; }
-hash feroxbuster 2>/dev/null && printf "[!] feroxbuster is already installed.\n" || { printf "[+] Installing feroxbuster!" && feroxbuster; }
+hash git  2>/dev/null || { printf "[+] Installing Git!\n" && git; }
+hash gcc 2>/dev/null || { printf "[+] Installing Gcc!\n" && gcc; }
+hash make 2>/dev/null || { printf "[+] Installing Make!\n" && make; }
+hash python3 2>/dev/null || { printf "[+] Installing Python!\n" && python; }
+hash pip 2>/dev/null || { printf "[+] Installing Pip!\n" && pip; }
+hash rust 2>/dev/null || { printf "[+] Installing Rust!\n" && rust; }
+hash go 2>/dev/null || { printf "[+] Installing Golang!\n" && golang; }
+hash massdns 2>/dev/null || { printf "[+] Installing Massdns!\n" && massdns; }
+hash masscan 2>/dev/null || { printf "[+] Installing Masscan!\n" && masscan; }
+hash subfinder 2>/dev/null || { printf "[+] Installing Subfinder!\n" && subfinder; }
+hash shuffledns 2>/dev/null || { printf "[+] Installing Shuffledns!\n" && shuffledns; }
+hash httpx 2>/dev/null || { printf "[+] Installing Httpx!\n" && httpx; }
+hash alterx 2>/dev/null || { printf "[+] Installing Alterx!\n" && alterx; }
+hash dnsx 2>/dev/null || { printf "[+] Installing Dnsx!\n" && dnsx; }
+hash chaos 2>/dev/null || { printf "[+] Installing Chaos!\n" && chaos; }
+hash katana 2>/dev/null || { printf "[+] Installing Katana!\n" && katana; }
+hash naabu 2>/dev/null || { printf "[+] Installing Naabu!\n" && naabu; }
+hash interactsh 2>/dev/null || { printf "[+] Installing Interactsh!\n" && interactsh; }
+hash nuclei 2>/dev/null || { printf "[+] Installing Nuclei!\n" && nuclei; }
+hash asnmap 2>/dev/null || { printf "[+] Installing ASNmap!\n" && asnmap; }
+hash notify 2>/dev/null || { printf "[+] Installing Notify!\n" && notify; }
+hash mapcidr 2>/dev/null || { printf "[+] Installing mapCIDR!\n" && mapcidr; }
+hash uncover 2>/dev/null || { printf "[+] Installing Uncover!\n" && uncover; }
+hash cdncheck 2>/dev/null || { printf "[+] Installing CDNcheck!\n" && cdncheck; }
+hash meg 2>/dev/null || { printf "[+] Installing Meg!\n" && meg; }
+hash gf 2>/dev/null || { printf "[+] Installing gf!\n" && gf; }
+hash anew 2>/dev/null || { printf "[+] Installing Anew!\n" && anew; }
+hash waybackurls 2>/dev/null || { printf "[+] Installing Waybackurls!\n" && waybackurls; }
+hash assetfinder 2>/dev/null || { printf "[+] Installing Assetfinder!\n" && assetfinder; }
+hash unfurl 2>/dev/null || { printf "[+] Installing Unfurl!\n" && unfurl; }
+hash qsreplace 2>/dev/null || { printf "[+] Installing qsreplace!\n" && qsreplace; }
+hash hakrawler 2>/dev/null || { printf "[+] Installing Hakrawler!\n" && hakrawler; }
+hash hakrevdns 2>/dev/null || { printf "[+] Installing HakrevDNS!\n" && hakrevdns; }
+hash haktrails 2>/dev/null || { printf "[+] Installing Haktrails!\n" && haktrails; }
+hash amass 2>/dev/null || { printf "[+] Installing Amass!\n" && amass; }
+hash shortscan 2>/dev/null || { printf "[+] Installing Shortscan!\n" && shortscan; }
+hash confused 2>/dev/null || { printf "[+] Installing Confused!\n" && confused; }
+hash puredns 2>/dev/null || { printf "[+] Installing PureDNS!\n" && puredns; }
+hash ffuf 2>/dev/null || { printf "[+] Installing Ffuf!\n" && ffuf; }
+hash crlfuzz 2>/dev/null || { printf "[+] Installing CRLFuzz!\n" && crlfuzz; }
+hash waymore 2>/dev/null || { printf "[+] Installing Waymore!\n" && waymore; }
+hash xnLinkFinder 2>/dev/null || { printf "[+] Installing xnLinkFinder!\n" && xnlinkfinder; }
+[ -f "~/tools/sqlmap-dev/sqlmap.py" ] || { printf "[+] Installing SQLmap!\n" && sqlmap; }
+[ -f "~/tools/dirsearch/dirsearch.py" ] || { printf "[+] Installing Dirsearch!\n" && dirsearch; }
+[ -f "~/tools/SSTImap/sstimap.py" ] || { printf "[+] Installing SSTImap!\n" && sstimap; }
+hash arjun 2>/dev/null || { printf "[+] Installing Arjun!\n" && arjun; }
+hash uro 2>/dev/null || { printf "[+] Installing Uro!\n" && uro; }
+hash knoxnl 2>/dev/null || { printf "[+] Installing Knoxnl!\n" && knoxnl; }
+hash urless 2>/dev/null || { printf "[+] Installing Urless!\n" && urless; }
+hash trufflehog 2>/dev/null || { printf "[+] Installing Trufflehog!\n" && trufflehog; }
+hash wpscan 2>/dev/null || { printf "[+] Installing Wpscan!\n" && wpscan; }
+[ -f "~/tools/fuzzing-templates/" ] || { printf "[+] Installing Fuzzing Templates!\n" && fuzzing-templates; }
+[ -f "~/tools/resolvers/resolvers.txt" ] || { printf "[+] Installing Resolvers!\n" && resolvers; }
+[ -f "~/tools/SecLists" ] || { printf "[+] Installing SecLists!\n" && seclists; }
+hash feroxbuster 2>/dev/null || { printf "[+] Installing Feroxbuster!\n" && feroxbuster; }
 
 list=(
     git
@@ -467,11 +467,6 @@ list=(
     feroxbuster
 )
 
-r="\e[31m"
-g="\e[32m"
-e="\e[0m"
-
-for prg in ${list[@]}
-do
-      hash $prg 2>/dev/null && printf "[$prg]$g Done$e\n" || printf "[$prg]$r Not Installed! Try Again.$e\n"
-    done
+for item in "${list[@]}"; do
+    echo "[${item}] Done"
+done
